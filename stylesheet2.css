@@ -1,0 +1,57 @@
+body
+{
+    font-family: century Gothic;
+}
+header
+{
+    height: 100px;
+    border-left: none ;
+    border-top: none ;
+    border-right: none;
+    box-shadow: 1px 6px 40px black;
+}
+.bouton{
+    position : relative;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-color: black;
+    transform: scale(2);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgba(1, 22, 54,0)
+
+}
+.monparagraphe
+{
+    font-size: 80px;
+    margin-left: 20px;
+}
+.logops
+{
+    margin-top:100px;
+    transform: scale(1.35);
+    margin-left: 100px;
+}
+.bouton:active 
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms,color;
+    transform : scale(2.30);
+    background-color:rgb(166, 80, 247);
+    color: white;
+}
+.bouton:hover
+{
+    color:skyblue;
+    border-bottom-color:skyblue;
+}
+.logops:hover
+{
+    transition-property: all;
+    transition : box-shadow 450ms, transform 300ms;
+    transform : scale(1.50);
+    box-shadow:1px 6px 40px black;
+
+
+}

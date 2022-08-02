@@ -1,0 +1,170 @@
+
+body
+{
+    font-family:Century Gothic;
+}
+
+.entete
+{
+    border-top : none;
+    border-left: none;
+    border-right: none;
+	box-shadow: 1px 6px 40px black;
+    height: 100px;
+
+}
+.masection
+{
+    padding-bottom: 0px;
+}
+.photo
+{
+ margin-top : -300px;
+ position : relative;
+ margin-left: -500px;
+ transform : scale(0.5);
+
+}
+.bouton1
+{
+    position : relative;
+    margin-left: 100px;
+    border-color: black;
+    transform: scale(2);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgba(1, 22, 54,0)
+
+}
+.bouton1:active 
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms,color;
+    transform : scale(2.30);
+    background-color:rgb(166, 80, 247);
+    color: white;
+}
+.bouton2
+{
+    position : relative;
+    margin-left: 750px;
+    border-color: black;
+    transform: scale(2);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgba(1, 22, 54,0)
+}
+.bouton2:active 
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms,color 1s;
+    transform : scale(2.30);
+    background-color:rgb(166, 80, 247);
+    color: white;
+}
+.bouton3
+{
+    
+    position : relative;
+
+    margin-left: 1100px;
+    border-color: black;
+    transform: scale(2);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgba(1, 22, 54,0)
+    
+}
+.bouton3:active 
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms, color 1s;
+    transform : scale(2.30);
+    background-color:rgb(166, 80, 247);
+    color: white;
+}
+.presentation
+{
+    display: inline-block;
+    position: relative;
+    margin-top: -1200px;
+    float: right;
+    border :rgba(1, 22, 54,0);
+    font-size: 100px;
+    height: 400px;
+    width: fit-content;
+    margin-left: 800px;
+}
+.logo1
+{
+   transform : scale(0.4);
+   position: relative;
+   
+   margin-top: -350px ;
+   margin-left: 400px;
+}
+.logo2
+{
+   transform : scale(0.4);
+   position: relative;
+  
+   margin-top: -350px ;
+   margin-left: 200px;
+}
+.logo3
+{
+   transform : scale(0.4);
+   position: relative;
+   margin-top: -350px ;
+   margin-left: 400px;
+}
+.alignement
+{
+    position: absolute;
+    display: inline-block;
+    margin-top:50px;
+}
+.logo1:hover
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms;
+    transform : scale(0.6)
+}
+.logo2:hover
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms;
+    transform : scale(0.6)
+}
+.logo3:hover
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms, color 800ms;
+    transform : scale(0.6)
+
+}
+.bouton1:hover
+{
+    color : skyblue;
+    border-color: rgb(166, 80, 247);
+}
+.bouton2:hover
+{
+    color : skyblue;
+    border-color: rgb(166, 80, 247);
+}
+.bouton3:hover
+{
+    color :skyblue;
+    border-color: rgb(166, 80, 247);
+}
+.align_logo
+{
+    margin-top: 0px;
+    position : relative;
+}
+
+

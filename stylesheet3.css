@@ -1,0 +1,56 @@
+body
+{
+    font-family: Century Gothic;
+}
+header
+{
+    height: 100px;
+    box-shadow: 1px 6px 40px black;
+
+}
+.bouton{
+    position : relative;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-color: black;
+    transform: scale(2);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgba(1, 22, 54,0)
+
+}
+.bouton:active 
+{
+    transition-property: all;
+	transition: transform 450ms, background-color 300ms,color;
+    transform : scale(2.30);
+    background-color:rgb(166, 80, 247);
+    color: white;
+}
+.bouton:hover
+{
+    color:skyblue;
+    border-bottom-color:skyblue;
+}
+.mesphotos
+{
+    position : relative;
+    display: inline-block;
+    margin-top : 40px;
+}
+.image1
+{
+  border-radius: 20px;
+  box-shadow: box-shadow: 1px 6px 20px black;;
+}
+.image2
+{
+    margin-left: 600px;
+    position : relative;
+}
+.monparagraphe
+{
+    font-size: 60px;
+
+}
